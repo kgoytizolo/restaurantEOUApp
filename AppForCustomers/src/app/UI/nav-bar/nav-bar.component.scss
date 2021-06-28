@@ -1,0 +1,48 @@
+/* Define standard variables for this menu bar */
+$tool-bar-bgcolor: #0e8841;
+$tool-bar-color: white;
+$tool-bar-items-height: 40px;
+$tool-bar-opacity: 0.8;
+
+span a,
+a:visited,
+a:hover {
+  color: $tool-bar-color;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: $tool-bar-color;
+  opacity: $tool-bar-opacity;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: $tool-bar-bgcolor;
+    color: $tool-bar-color;
+    font-weight: 600;
+  }
+
+  .toolbar #budget-app-logo {
+    height: $tool-bar-items-height;  
+    margin: 0 16px;
+  } 
+
+  .toolbar #budget-app-logo:hover{
+    opacity: $tool-bar-opacity;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar #register{
+    margin: 0 16px;
+  }
+  

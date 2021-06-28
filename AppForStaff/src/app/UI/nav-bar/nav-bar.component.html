@@ -1,0 +1,30 @@
+<div class="toolbar" role="banner">
+    <a aria-label="Restaurant App - Home" rel="noopener" [routerLink]="'home'" title="Restaurant App Logo">
+      <svg id="budget-app-logo" height="50" width="50" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+        <circle cx="250" cy="200" r="160" stroke="white" stroke-width="20" fill="none" />
+        <text x="175" y="255" font-family="Verdana" font-size="200" fill="white">$</text>
+      </svg>    
+    </a>
+    <span>
+      <a aria-label="Restaurant App - Home" rel="noopener" [routerLink]="'home'" title="Restaurant App Logo">
+        The Restaurant at the End of the Universe
+      </a>
+    </span>
+    <div class="spacer"></div>
+    <span>
+      <a aria-label="Restaurant App - Login" rel="noopener" [routerLink]="'login'" title="Budget App Login">
+        Login
+      </a>
+    </span>
+    &nbsp;&nbsp;&nbsp;
+    <span id="register">
+      <a aria-label="Restaurant App- Orders" rel="noopener" [routerLink]="'/menu/orders/orders-list'" title="Budget App Register">
+        My Orders
+      </a>
+    </span>  
+    <span id="register">
+      <a aria-label="Restaurant App - Payment" rel="noopener" [routerLink]="'/menu/orders-list/payment'" title="Budget App Register">
+        Handle Payment
+      </a>
+    </span>          
+  </div>
